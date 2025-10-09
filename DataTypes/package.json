@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "private": true,
+  "version": "1.1.0",
+  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint ./Exercises; hpw",
+    "ci": "eslint ./Exercises && hpw"
+  },
+  "dependencies": {
+    "hpw": "^0.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "globals": "^16.3.0"
+  }
+}

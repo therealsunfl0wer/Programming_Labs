@@ -1,4 +1,3 @@
-````markdown
 # Closures and chaining
 
 1. Implement function `seq(...args)` using closures and chaining, which can be
@@ -51,4 +50,3 @@ console.log(arr.pop()); // Output: first
 
 console.log(arr.pop()); // Output: undefined
 ```
-````

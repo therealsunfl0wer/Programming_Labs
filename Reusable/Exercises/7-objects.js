@@ -1,6 +1,5 @@
 // noinspection JSVoidFunctionReturnValueUsed
 
-'use strict';
 /* Do following tasks inside function `fn` (see stub: `7-objects.js`)
 - Define constant object with single field `name`.
 - Define variable object with single field `name`.
@@ -9,18 +8,17 @@
 - Explain script behaviour. */
 
 const fn = () => {
-  const cObj = { name: 'cName' };
-  const vObj = { name: 'vName' };
+  const cObj = { name: "cName" };
+  const vObj = { name: "vName" };
 
   // console.dir(cObj.name + ' <- const, var -> ' + vObj.name);
-
 
   // const anotherObj = { name: 'another name' };
 
   // Entries in both objects are editable,
   // but the constant is un-reassignable
-  vObj.name = 'a better name';
-  cObj.name = 'a better name';
+  vObj.name = "a better name";
+  cObj.name = "a better name";
 
   // console.dir(cObj.name + ' <- const, var -> ' + vObj.name);
 

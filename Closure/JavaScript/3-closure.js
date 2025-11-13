@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const add = (x) => (y) => {
   const z = x + y;

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const hash = {
   first: 7,
@@ -9,17 +9,14 @@ const hash = {
 
 hash.fifth = 2;
 
-Object.defineProperty(hash, 'newField', {
+Object.defineProperty(hash, "newField", {
   enumerable: false,
-  value: 'valueOfNewField',
+  value: "valueOfNewField",
 });
 
-Object.prototype.inheritedProperty = 'inherited';
+Object.prototype.inheritedProperty = "inherited";
 
 for (const key in hash) {
   const value = hash[key];
-  console.log(
-    key, '\t', typeof key, '\t',
-    value, '\t', typeof value
-  );
+  console.log(key, "\t", typeof key, "\t", value, "\t", typeof value);
 }

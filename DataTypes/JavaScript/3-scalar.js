@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 let scalar1 = 5;
 let scalar2 = scalar1;

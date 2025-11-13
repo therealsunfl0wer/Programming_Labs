@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
 const hash = () => {
   const data = {};
-  Object.defineProperty(data, 'add', {
+  Object.defineProperty(data, "add", {
     enumerable: false,
     value(key, value) {
       data[key] = value;
@@ -14,9 +14,4 @@ const hash = () => {
 
 // Usage
 
-console.dir(
-  hash()
-    .add('name', 'Marcus')
-    .add('city', 'Roma')
-    .add('born', 121),
-);
+console.dir(hash().add("name", "Marcus").add("city", "Roma").add("born", 121));

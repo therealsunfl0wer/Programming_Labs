@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Find difference of two arrays
 // elements from array1 that are not includes in array2

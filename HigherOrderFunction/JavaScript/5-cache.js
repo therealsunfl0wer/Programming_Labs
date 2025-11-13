@@ -1,16 +1,16 @@
-'use strict';
+"use strict";
 
 const fn = () => {
-  console.log('Generate cache');
+  console.log("Generate cache");
   const cache = {};
   return (key) => {
     let res = cache[key];
     if (res) {
-      console.log('From cache');
+      console.log("From cache");
       return res;
     }
-    console.log('Calculate and save to cache');
-    res = 'value' + key;
+    console.log("Calculate and save to cache");
+    res = "value" + key;
     cache[key] = res;
     return res;
   };

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const sum = (...args) => {
   // Use for..of loop and accumulator variable

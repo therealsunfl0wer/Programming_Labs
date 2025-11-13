@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 let i = 0;
 do {

@@ -1,5 +1,3 @@
-'use strict';
-
 /* Call function from function in loop
 - Implement function `average` with signature
   `average(a: number, b: number): number`
@@ -16,11 +14,11 @@
 Call functions `square` and `cube` in loop, then pass their
 results to function `average`. Print what `average` returns. */
 
-const square = (x) =>  x * x;
+const square = (x) => x * x;
 
 const cube = (x) => x ** 3;
 
-const average = (a, b) => (a + b / 2);
+const average = (a, b) => a + b / 2;
 
 const calculate = () => {
   const array = [];

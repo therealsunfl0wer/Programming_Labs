@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const power = Math.pow;
 const square = (x) => power(x, 2);

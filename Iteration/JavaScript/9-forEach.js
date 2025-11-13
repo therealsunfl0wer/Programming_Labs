@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const numbers = [7, 10, 1, 5, 2];
 numbers.forEach((item, i, arr) => {

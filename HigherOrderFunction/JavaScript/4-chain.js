@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 function fn(a) {
   return function (b) {
@@ -16,5 +16,5 @@ const res1 = f2(3);
 const res2 = fn(1)(2)(3);
 
 if (res1 === res2) {
-  console.log('a + b + c =', res1);
+  console.log("a + b + c =", res1);
 }

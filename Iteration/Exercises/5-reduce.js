@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const sum = (...args) => 0;
 // Use Array.prototype.reduce method

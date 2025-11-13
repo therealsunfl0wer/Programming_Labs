@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const ages = (persons) => {
   // Use for..in to calculate age for each person

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 let a = 0;
 while (a < 10) {

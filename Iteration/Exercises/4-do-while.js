@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const sum = (...args) => {
   // Use do..while loop and accumulator variable

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // Create and return a new array without duplicate elements
 // Don't modify initial array

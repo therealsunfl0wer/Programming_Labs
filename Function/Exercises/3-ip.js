@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const ipToInt = (ip) => {
   // Parse ip address as string, for example '10.0.0.1'
@@ -8,7 +8,7 @@ const ipToInt = (ip) => {
   // Use Array.prototype.reduce of for loop
   let o = 0;
 
-  const ipArray = ip.split('.').map(Number);
+  const ipArray = ip.split(".").map(Number);
   for (let i = 0; i < ipArray.length; i++) {
     o += ipArray[i] << ((3 - i) * 8);
   }

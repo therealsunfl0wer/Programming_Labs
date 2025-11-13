@@ -1,17 +1,17 @@
-'use strict';
+"use strict";
 
 const numbers = [7, 10, 1, 5, 2];
-numbers.field2 = 'Value2';
-numbers[-10] = 'Value3';
-numbers.field1 = 'Value1';
+numbers.field2 = "Value2";
+numbers[-10] = "Value3";
+numbers.field1 = "Value1";
 numbers[5] = 20;
 
-Object.defineProperty(numbers, 'newField', {
+Object.defineProperty(numbers, "newField", {
   enumerable: false,
-  value: 'valueOfNewField',
+  value: "valueOfNewField",
 });
 
-Object.prototype.inheritedProperty = 'inherited';
+Object.prototype.inheritedProperty = "inherited";
 
 for (const i in numbers) {
   const value = numbers[i];

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const adder = (a) => {
   let onZerro = null;
@@ -13,7 +13,7 @@ const adder = (a) => {
     return adder(x);
   };
   const on = (name, callback) => {
-    if (name === 'zero') onZerro = callback;
+    if (name === "zero") onZerro = callback;
     return obj;
   };
   return Object.assign(obj, { add, value, on });
@@ -22,7 +22,7 @@ const adder = (a) => {
 // Usage
 
 const res = adder(3)
-  .on('zero', () => console.log('Less than zero'))
+  .on("zero", () => console.log("Less than zero"))
   .add(-9)
   .add(12)
   .add(5)

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const range = {
   start: 1,
@@ -6,16 +6,17 @@ const range = {
   [Symbol.asyncIterator]() {
     let value = this.start;
     return {
-      next: () => new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve({
-            value,
-            done: value++ === this.end + 1
-          });
-        }, 0);
-      })
+      next: () =>
+        new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve({
+              value,
+              done: value++ === this.end + 1,
+            });
+          }, 0);
+        }),
     };
-  }
+  },
 };
 
 console.dir({
@@ -27,7 +28,7 @@ console.dir({
 let k = 0;
 
 const timer = setInterval(() => {
-  console.log('next ', k++);
+  console.log("next ", k++);
 }, 10);
 
 (async () => {

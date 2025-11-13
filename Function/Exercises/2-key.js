@@ -1,13 +1,12 @@
-'use strict';
-const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+"use strict";
+const characters = "abcdefghijklmnopqrstuvwxyz0123456789";
 const generateKey = (length, possible) => {
   // Generate string of random characters
   // Use Math.random() and Math.floor()
   // See documentation at MDN
-  let seed = '';
+  let seed = "";
   for (let i = 0; i < length; i++) {
-    seed += possible.charAt(
-      Math.floor(Math.random() * possible.length));
+    seed += possible.charAt(Math.floor(Math.random() * possible.length));
   }
   return seed;
 };

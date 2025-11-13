@@ -1,5 +1,3 @@
-'use strict';
-
 /* Collections: Array, Hash (Object)
 
 Implement phone book using array of records.
@@ -10,9 +8,9 @@ Object example: `{ name: 'Marcus Aurelius', phone: '+380445554433' }`.
 where field `name` equals argument `name`. Use `for` loop for this search. */
 
 const phonebook = [
-  { name: 'yo mama', phone: '+380445554433' },
-  { name: 'yo fatha', phone: '+380445554434' },
-  { name: 'yo sistah', phone: '+380445554434' },
+  { name: "yo mama", phone: "+380445554433" },
+  { name: "yo fatha", phone: "+380445554434" },
+  { name: "yo sistah", phone: "+380445554434" },
 ];
 
 const findPhoneByName = (name) => {

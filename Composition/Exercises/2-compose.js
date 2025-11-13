@@ -1,5 +1,8 @@
-'use strict';
+"use strict";
 
-const compose = (...fns) => (x) => null;
+const compose =
+  (...fns) =>
+  (x) =>
+    null;
 
 module.exports = { compose };

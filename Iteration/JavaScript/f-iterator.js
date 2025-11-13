@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const range = {
   start: 1,
@@ -8,10 +8,10 @@ const range = {
     return {
       next: () => ({
         value,
-        done: value++ === this.end + 1
-      })
+        done: value++ === this.end + 1,
+      }),
     };
-  }
+  },
 };
 
 console.dir({
@@ -28,4 +28,4 @@ const sum = (prev, cur) => prev + cur;
 const sumIterable = (...iterable) => iterable.reduce(sum);
 
 const sumRange = sumIterable(...range);
-console.log('sumRange:', sumRange);
+console.log("sumRange:", sumRange);

@@ -1,12 +1,14 @@
-'use strict';
+"use strict";
 
-const logable = (fn) => (...args) => {
-  const res = fn(...args);
-  const callArgs = args.join(', ');
-  const callLog = `${fn.name}(${callArgs})`;
-  console.log(`Call: ${callLog} Result: ${res}`);
-  return res;
-};
+const logable =
+  (fn) =>
+  (...args) => {
+    const res = fn(...args);
+    const callArgs = args.join(", ");
+    const callLog = `${fn.name}(${callArgs})`;
+    console.log(`Call: ${callLog} Result: ${res}`);
+    return res;
+  };
 
 // Usage
 

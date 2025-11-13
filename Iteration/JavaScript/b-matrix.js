@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const matrix = [
   [7, 10, 1, 5, 2],

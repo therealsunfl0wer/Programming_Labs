@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 console.dir({ hoisted }); // { hoisted: undefined }
 hoisted = 5; // Assign 5 to hoisted

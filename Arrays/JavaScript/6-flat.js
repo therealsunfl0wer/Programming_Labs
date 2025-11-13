@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 {
   const array = [10, [20, 30], 40];

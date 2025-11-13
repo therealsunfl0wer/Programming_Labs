@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
-const cities = ['Athens', 'Roma', 'London', 'Beijing', 'Kiev', 'Riga'];
+const cities = ["Athens", "Roma", "London", "Beijing", "Kiev", "Riga"];
 const f = (s) => s.length;
 
 function f1() {
-  const cities = ['Athens', 'Roma'];
+  const cities = ["Athens", "Roma"];
   const f = (s) => s.toUpperCase();
   console.dir({ cities });
   console.dir(cities.map(f));
@@ -16,11 +16,10 @@ function f1() {
   }
 
   {
-    const cities = ['London', 'Beijing', 'Kiev'];
+    const cities = ["London", "Beijing", "Kiev"];
     console.dir({ cities });
     console.dir(cities.map(f));
   }
-
 }
 
 f1();

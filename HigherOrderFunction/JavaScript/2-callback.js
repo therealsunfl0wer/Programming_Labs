@@ -1,15 +1,15 @@
-'use strict';
+"use strict";
 
 const fn = (par, callback) => {
   if (!par) {
-    callback(new Error('Parameter needed'));
-    return 'None';
+    callback(new Error("Parameter needed"));
+    return "None";
   }
   callback(null, `Data ${par}`);
-  return 'Value';
+  return "Value";
 };
 
-const res = fn('example', (err, data) => {
+const res = fn("example", (err, data) => {
   if (err) throw err;
   console.dir({ data });
 });

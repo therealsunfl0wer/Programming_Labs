@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-const fs = require('node:fs');
+const fs = require("node:fs");
 
 // Print specified line from a file
 //   fileName - string, file to parse
@@ -8,12 +8,14 @@ const fs = require('node:fs');
 // Returns: boolean, success status
 const printLine = (fileName, lineNumber) => {
   const content = fs.readFileSync(fileName).toString();
-  const lines = content.split('\n');
+  const lines = content.split("\n");
   const line = lines[lineNumber - 1];
   if (line === undefined) return false;
   console.dir({
-    fileName, lineNumber, line
+    fileName,
+    lineNumber,
+    line,
   });
 };
 
-printLine('./c-comments.js', 5);
+printLine("./c-comments.js", 5);

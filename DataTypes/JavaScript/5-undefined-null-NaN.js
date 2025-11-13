@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // undefined
 let emptyScalar;
@@ -17,9 +17,6 @@ console.dir({ count });
 
 console.log(Infinity, -Infinity, typeof Infinity);
 
-const s = (
-  emptyObject === null ?
-    'emptyObject is null' :
-    'emptyObject is not null'
-);
+const s =
+  emptyObject === null ? "emptyObject is null" : "emptyObject is not null";
 console.log(s);

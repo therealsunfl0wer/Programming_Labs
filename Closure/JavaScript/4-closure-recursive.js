@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const add = (x) => {
   const internalAdd = (y) => {

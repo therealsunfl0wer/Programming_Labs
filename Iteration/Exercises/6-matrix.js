@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const max = (matrix) => {
   // Use nested for loop to find max value in 2d matrix

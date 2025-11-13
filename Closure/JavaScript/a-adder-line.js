@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const adder = (a) => ({ value: () => a, add: (b) => adder(a + b) });
 

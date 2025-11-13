@@ -1,5 +1,8 @@
-'use strict';
+"use strict";
 
-const pipe = (...fns) => (x) => null;
+const pipe =
+  (...fns) =>
+  (x) =>
+    null;
 
 module.exports = { pipe };

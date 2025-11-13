@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const seq = (f) => (g) => (x) => 0;
 

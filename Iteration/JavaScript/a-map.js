@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const log = (s, i) => {
   console.log(i, s);
@@ -8,7 +8,10 @@ const log = (s, i) => {
 const f1 = (x) => x * 2;
 const f2 = (x) => ++x;
 
-const compose = (...funcs) => (x) => funcs.reduce((v, f) => f(v), x);
+const compose =
+  (...funcs) =>
+  (x) =>
+    funcs.reduce((v, f) => f(v), x);
 
 const f3 = compose(f1, f2);
 

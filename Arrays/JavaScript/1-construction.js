@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 {
   const array = [];
@@ -8,7 +8,7 @@
 {
   const array = [];
   array[1] = 100;
-  array['first'] = 300;
+  array["first"] = 300;
   array[0] = 200;
   array[-1] = -100;
   console.dir({ array, length: array.length });
@@ -34,7 +34,7 @@
   console.dir({ array, length: array.length });
 }
 {
-  const array = Array.from('123');
+  const array = Array.from("123");
   console.dir({ array, length: array.length });
 }
 {

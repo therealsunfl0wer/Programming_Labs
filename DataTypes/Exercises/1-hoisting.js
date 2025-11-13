@@ -1,6 +1,6 @@
 /* eslint-disable no-use-before-define */
 /* eslint-disable no-var */
-'use strict';
+"use strict";
 
 console.log(fn);
 var fn = 4;

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 {
   const array = [1, 2, 3, 4];
@@ -12,6 +12,6 @@
 }
 {
   const array = [1, 0, 168, 192];
-  const sum = (acc, element) => acc + '.' + element;
+  const sum = (acc, element) => acc + "." + element;
   console.log(array.reduceRight(sum));
 }

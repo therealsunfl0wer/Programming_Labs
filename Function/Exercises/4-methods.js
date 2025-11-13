@@ -1,13 +1,14 @@
-'use strict';
+"use strict";
 
-const iface =  {
+const iface = {
   m1: (x) => [x],
-  m2: function (x, y) {
-    return [x, y];},
+  m2(x, y) {
+    return [x, y];
+  },
   m3(x, y, z) {
     return [x, y, z];
-  }
-}
+  },
+};
 
 const methods = () => {
   // Introspect all properties of iface object and
@@ -25,9 +26,9 @@ const methods = () => {
   //   ['m2', 2],
   //   ['m3', 3]
   // ]
-  let ar = [];
+  const ar = [];
   for (const name in iface) {
-    if (typeof iface[name] === 'function') {
+    if (typeof iface[name] === "function") {
       ar.push([name, iface[name].length]);
     }
   }

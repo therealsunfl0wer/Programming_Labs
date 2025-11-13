@@ -14,6 +14,10 @@ const ages = (persons) => {
   //   gandhi: 79,
   //   hirohito: 88,
   // }
+  for (const person in persons) {
+    persons[person] = persons[person].died - persons[person].born;
+  }
+  return persons;
 };
 
 module.exports = { ages };

@@ -13,6 +13,21 @@
 5. Implement function `rangeOdd(start: number, end: number)` returning
    array with all odd numbers from the range [15, 30] including endpoints.
 
+# Exercises
+
+## Identifiers
+
+1. Define variable to store your name as a string.
+2. Define constant to store your birth year as a number.
+3. Prepare function to print greeting with single argument.
+
+## Loops
+
+4. Implement function `range(start: number, end: number): array` returning
+   array with all numbers from the range [15, 30] including endpoints.
+5. Implement function `rangeOdd(start: number, end: number)` returning
+   array with all odd numbers from the range [15, 30] including endpoints.
+
 ## Functions
 
 6. Call function from function in loop

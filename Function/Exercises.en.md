@@ -1,4 +1,3 @@
-````markdown
 # Exercises: Functions
 
 1. Implement function `random(min, max)` returning pseudo-random value from
@@ -61,4 +60,3 @@ should yield:
   ["m3", 3],
 ];
 ```
-````

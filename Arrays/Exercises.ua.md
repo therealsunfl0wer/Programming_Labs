@@ -1,4 +1,3 @@
-````markdown
 ## Робота з масивами та використання методів Array
 
 1. Реалізуйте функцію `removeElement(array, item)` для видалення елемента `item`
@@ -74,4 +73,3 @@ const result = difference(array1, array2);
 console.log(result);
 // Результат: ['Beijing']
 ```
-````

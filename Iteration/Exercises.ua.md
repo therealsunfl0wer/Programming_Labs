@@ -1,4 +1,3 @@
-````markdown
 # Вправи
 
 ## Ітерування циклами
@@ -53,4 +52,3 @@ console.log(ages(persons));
 //   hirohito: 88,
 // }
 ```
-````

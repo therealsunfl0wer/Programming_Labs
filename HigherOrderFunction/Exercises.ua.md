@@ -1,4 +1,3 @@
-````markdown
 ## Функції вищого порядку
 
 1. Реалізуйте функцію `iterate(object, callback)` яка буде ітерувати
@@ -41,4 +40,3 @@ const addNumbers = contract(add, Number, Number, Number);
 const res = addNumbers(2, 3);
 console.dir(res); // Output: 5
 ```
-````

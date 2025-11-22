@@ -1,4 +1,3 @@
-````markdown
 # Composition
 
 1. Implement `pipe` function composing passed arguments from left to right.
@@ -20,4 +19,3 @@ an error.
 2. Implement right-to-left composition (without recursion) which should
    suppress thrown errors: if a composed function throws, execution finishes with
    `undefined`, and errors can be subscribed to via `f.on('error', e => { ... });`.
-````

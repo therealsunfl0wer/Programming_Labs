@@ -8,7 +8,7 @@ Use this checklist to track your progress on the hands-on coding tasks.
 
 | Status | Folder             | Assignment Topic                    |  Deadline  |
 | :----: | :----------------- | :---------------------------------- | :--------: |
-|  [➖]  | `1-generators`     | **Generators & Timeout Iterators**  | 01/03/2025 |
+|  [✅]  | `1-generators`     | **Generators & Timeout Iterators**  | 01/03/2025 |
 |  [ ]   | `2-project-setup`  | **Project Config & Local Linking**  | 15/03/2025 |
 |  [ ]   | `3-memoizer`       | **Memoization (LRU/LFU/TTL)**       | 29/03/2025 |
 |  [ ]   | `4-priority-queue` | **Bi-Directional Priority Queue**   | 12/04/2025 |

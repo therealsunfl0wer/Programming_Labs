@@ -23,18 +23,15 @@ function* stringRandom(length, characters) {
     characters = characters.toString();
   }
   let output = "";
-  let done = false;
-  for (let i = 0; i < length; i++) {
+  for (let i = 1; i <= length; i++) {
     const index = Math.floor(Math.random() * characters.length);
     output += characters[index];
-    yield { output: output, done: done };
+    yield output;
   }
-  done = true;
-  return { output: output, done: done };
 }
 
-const gen = stringRandom(10);
-
+/*
 for (let i = 0; i <= 10; i++) {
-  console.log(gen.next().value);
+  console.log(stringRandom(10).next());
 }
+*/

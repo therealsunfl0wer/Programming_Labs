@@ -1,0 +1,6 @@
+[submodule "2-project-setup/2-example-project"]
+	path = 2-project-setup/2-example-project
+	url = https://github.com/therealsunfl0wer/password-generator-frontend-prog-lab2
+[submodule "2-project-setup/1-example-lib"]
+	path = 2-project-setup/1-example-lib
+	url = https://github.com/therealsunfl0wer/password-generator-lib-prog-lab2.git

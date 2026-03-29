@@ -22,7 +22,7 @@ function memoize(fn, cacheSize = Infinity) {
     if (cache.size < cacheSize) {
       cache.set(key, calc);
       console.log(
-        `[Memo] Cache hit for ${JSON.stringify(key)}: ${JSON.stringify(calc)}`
+        `[Memo] Caching ${JSON.stringify(key)}: ${JSON.stringify(calc)}`
       );
     } else {
       console.log("[Memo] Cache full, not saving");

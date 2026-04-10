@@ -15,3 +15,58 @@ Requirements:
 	•	dequeue(highest, lowest, oldest, newest)
 	*	peek(highest, lowest, oldest, newest)
 */
+
+class PriorityQueue {
+  constructor() {
+    this.queue = [];
+    this.Element = class {
+      constructor(value = undefined, priority = Infinity) {
+        this.value = value;
+        this.priority = priority;
+        this.timestamp = Date.now();
+      }
+    };
+  }
+  enqueue(item, priority) {
+    const e = new this.Element(item, priority);
+    this.queue.push(e);
+  }
+  dequeue(highest, lowest, oldest, newest) {
+    if (highest + lowest + oldest + newest != 1) {
+      throw new Error(
+        `Exactly one argument must be true. Received: highest=${highest}, lowest=${lowest}, oldest=${oldest}, newest=${newest}`
+      );
+    }
+    if (highest) {
+      if (this.queue.length === 0) return undefined;
+      let iCurrent = 0;
+      let best = this.queue[0].priority;
+      for (let i = 1; i < this.queue.length; ++i) {
+        if (this.queue[i].priority > best) {
+          best = this.queue[i].priority;
+          iCurrent = i;
+        }
+      }
+      return this.queue.splice(iCurrent, 1)[0];
+    }
+    if (lowest) {
+      if (this.queue.length === 0) return undefined;
+      let iCurrent = 0;
+      let worst = this.queue[0].priority;
+      for (let i = 1; i < this.queue.length; ++i) {
+        if (this.queue[i].priority < worst) {
+          worst = this.queue[i].priority;
+          iCurrent = i;
+        }
+      }
+      return this.queue.splice(iCurrent, 1)[0];
+    }
+    if (oldest) {
+      return this.queue.shift();
+    }
+    if (newest) {
+      return this.queue.pop();
+    }
+  }
+}
+export { PriorityQueue };

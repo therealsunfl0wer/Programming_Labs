@@ -68,5 +68,43 @@ class PriorityQueue {
       return this.queue.pop();
     }
   }
+  peek(highest, lowest, oldest, newest) {
+    if (highest + lowest + oldest + newest != 1) {
+      throw new Error(
+        `Exactly one argument must be true. Received: highest=${highest}, lowest=${lowest}, oldest=${oldest}, newest=${newest}`
+      );
+    }
+    if (highest) {
+      if (this.queue.length === 0) return undefined;
+      let iCurrent = 0;
+      let best = this.queue[0].priority;
+      for (let i = 1; i < this.queue.length; ++i) {
+        if (this.queue[i].priority > best) {
+          best = this.queue[i].priority;
+          iCurrent = i;
+        }
+      }
+      return this.queue[iCurrent];
+    }
+    if (lowest) {
+      if (this.queue.length === 0) return undefined;
+      let iCurrent = 0;
+      let worst = this.queue[0].priority;
+      for (let i = 1; i < this.queue.length; ++i) {
+        if (this.queue[i].priority < worst) {
+          worst = this.queue[i].priority;
+          iCurrent = i;
+        }
+      }
+      return this.queue[iCurrent];
+    }
+    if (oldest) {
+      return this.queue[0];
+    }
+    if (newest) {
+      return this.queue[this.queue.length - 1];
+    }
+  }
 }
+
 export { PriorityQueue };

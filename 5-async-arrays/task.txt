@@ -1,0 +1,21 @@
+Task 5: Async Array Function Variants
+Expand a standard array function into asynchronous versions.
+1. Choose one array function
+Pick one:
+map
+filter
+filterMap
+some
+find
+findIndex
+2. Implement Variants
+Callback-based asynchronous version (where callbacks are used instead of Promises)
+Promise-based alternative (returning a Promise for chaining)
+3. Async/Await Example
+Create examples showing how the Promise version can be used with async/await.
+4. Demo Cases
+Prepare demo cases showcasing usage for each version.
+5. Abortable/Cancellable Support
+Add an AbortController or another cancellation mechanism to allow the process to be aborted.
+Note:
+If the selected programming language lacks native Futures or Promises, you can stick to only the callback or the available async primitive.

@@ -1,10 +1,23 @@
 import stream from "stream";
 
+const exceptions = ["404", "500"];
+
 const sliceLog = new stream.Transform({
   readableObjectMode: true,
   async transform(chunk, encoding, callback) {
     const lines = chunk.toString().split("\n");
     lines.forEach((line) => this.push(line));
+    callback();
+  },
+});
+
+const filterLog = new stream.Transform({
+  readableObjectMode: true,
+  writableObjectMode: true,
+  async transform(line, encoding, callback) {
+    if (exceptions.some((exception) => line.includes(exception))) {
+      this.push(line + "\n");
+    }
     callback();
   },
 });
@@ -24,4 +37,4 @@ let logStream = new stream.Readable({
   },
 });
 
-logStream.pipe(sliceLog).pipe(process.stdout);
+logStream.pipe(sliceLog).pipe(filterLog).pipe(process.stdout);

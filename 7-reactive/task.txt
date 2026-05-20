@@ -1,0 +1,7 @@
+Task 7: Reactive Communication with Observables or EventEmitters
+
+Implement reactive message-based communication between entities.
+	•	Use Observable, EventEmitter, or an equivalent reactive programming primitive.
+	•	Demonstrate entities reacting to and communicating through messages/events.
+	•	Show examples where multiple listeners react to events independently.
+	•	Support subscribe/unsubscribe functionality.

@@ -1,6 +1,0 @@
-Task 6: Large Data Processing with Streams or Async Iterators
-
-Implement a system for the ongoing processing of large data sets that do not fit in memory.
-	•	Use Streams, Async Iterator, or any equivalent mechanism.
-	•	The goal is incremental, memory-efficient processing without loading the entire dataset into memory at once.
-	•	Provide an example showing how to consume and process such a data stream.

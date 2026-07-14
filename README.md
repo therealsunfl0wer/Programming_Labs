@@ -1,34 +1,38 @@
-# 🧑‍💻 Lab Assignments Checklist
+# 📚 Fundamentals of Programming (Основи програмування)
 
-Use this checklist to track your progress on the hands-on coding tasks.
+Welcome to the repository for the "Fundamentals of Programming" course. This project is organized using branches to separate the curriculum by semesters.
 
-- **`[ ]` Not Started**
-- **`[➖]` In Progress**
-- **`[✅]` Completed**
-- **`[📑]` Implemented into the coursework**
-
-| Status | Folder             | Assignment Topic                    |  Deadline  |
-| :----: | :----------------- | :---------------------------------- | :--------: |
-|  [✅]  | `1-generators`     | **Generators & Timeout Iterators**  | 01/03/2025 |
-|  [✅]  | `2-project-setup`  | **Project Config & Local Linking**  | 15/03/2025 |
-|  [✅]  | `3-memoizer`       | **Memoization (LRU/LFU/TTL)**       | 29/03/2025 |
-|  [✅]   | `4-priority-queue` | **Bi-Directional Priority Queue**   | 12/04/2025 |
-|  [✅]   | `5-async-arrays`   | **Async/Abortable Array Methods**   | 26/04/2025 |
-|  [✅]   | `6-streams`        | **Large Data & Async Iterators**    | 10/05/2025 |
-|  [✅]   | `7-reactive`       | **Observables & EventEmitters**     | 24/05/2025 |
-|  [📑]   | `8-auth-proxy`     | **Auth Proxy & Interceptors**       | 07/06/2025 |
-|  [📑]   | `9-logging`        | **Logging Decorators (Sync/Async)** |     —      |
+(Ласкаво просимо до репозиторію з курсу «Основи програмування». Цей проєкт організований за допомогою гілок для розділення навчальної програми за семестрами.)
 
 ---
 
-## 📝 Task Quick-Reference
+## 🌿 Branch Structure (Структура гілок)
 
-1. **Generators:** Infinite streams (Fibonacci, etc.) + a consumer with a timer.
-2. **Setup:** Proper modularization and local dependency linking.
-3. **Memoization:** Cache function results with custom eviction (LRU/LFU/Time).
-4. **Queue:** Bi-directional priority queue (Highest/Lowest + FIFO/LIFO).
-5. **Async Arrays:** `map`/`filter` versions with Callbacks, Promises, and Abort signals.
-6. **Streams:** Memory-efficient processing for datasets that don't fit in RAM.
-7. **Reactive:** EventEmitter/Observable pattern for entity communication.
-8. **Auth Proxy:** Interceptor for injecting JWT/API Keys and handling renewal.
-9. **Decorators:** Method-level logging with levels (INFO/DEBUG/ERROR).
+To view the assignments, please switch to the corresponding branch:
+(Щоб переглянути завдання, будь ласка, перейдіть у відповідну гілку:)
+
+### 📂 [Semester 1 (Branch: `semester-1`)](https://github.com/therealsunfl0wer/Programming-labs/tree/semester-1)
+
+- **Focus:** Lab assignments for the first semester of Fundamentals of Programming.
+- (**Фокус:** Лабораторні завдання для першого семестру з курсу Основи програмування.)
+
+### 📂 [Semester 2 (Branch: `semester-2`)](https://github.com/therealsunfl0wer/Programming-labs/tree/semester-2)
+
+- **Focus:** Lab assignments for the second semester of Fundamentals of Programming.
+- (**Фокус:** Лабораторні завдання для другого семестру з курсу Основи програмування.)
+
+---
+
+## 🛠 Navigation (Навігація)
+
+1. Use the GitHub branch selector to switch to `semester-2`.
+2. Browse the lab folders inside that branch to find the assignments.
+3. Open each folder’s `README.md` or assignment files for instructions and progress details.
+
+---
+
+## 📝 Notes
+
+- The `main` branch is kept as a navigation page.
+- All lab content is stored in accordance with the semester branches.
+- This structure helps keep the repository clean and easy to navigate.

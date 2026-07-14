@@ -5,6 +5,7 @@ Use this checklist to track your progress on the hands-on coding tasks.
 - **`[ ]` Not Started**
 - **`[➖]` In Progress**
 - **`[✅]` Completed**
+- **`[📑]` Implemented into the coursework**
 
 | Status | Folder             | Assignment Topic                    |  Deadline  |
 | :----: | :----------------- | :---------------------------------- | :--------: |
@@ -15,8 +16,8 @@ Use this checklist to track your progress on the hands-on coding tasks.
 |  [✅]   | `5-async-arrays`   | **Async/Abortable Array Methods**   | 26/04/2025 |
 |  [✅]   | `6-streams`        | **Large Data & Async Iterators**    | 10/05/2025 |
 |  [✅]   | `7-reactive`       | **Observables & EventEmitters**     | 24/05/2025 |
-|  [ ]   | `8-auth-proxy`     | **Auth Proxy & Interceptors**       | 07/06/2025 |
-|  [ ]   | `9-logging`        | **Logging Decorators (Sync/Async)** |     —      |
+|  [📑]   | `8-auth-proxy`     | **Auth Proxy & Interceptors**       | 07/06/2025 |
+|  [📑]   | `9-logging`        | **Logging Decorators (Sync/Async)** |     —      |
 
 ---
 
